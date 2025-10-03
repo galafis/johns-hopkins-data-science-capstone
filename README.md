@@ -2,11 +2,17 @@
 
 **Johns Hopkins University Data Science Specialization - Final Project**
 
-*This project represents the culmination of the Johns Hopkins University Data Science Specialization, demonstrating comprehensive mastery of the complete data science workflow from data acquisition to predictive modeling and business insights generation.*
+*Este projeto representa a culminação da Johns Hopkins University Data Science Specialization, demonstrando domínio abrangente do fluxo de trabalho completo da ciência de dados, desde a aquisição de dados até a modelagem preditiva e a geração de insights de negócios.*
 
 ---
 
-## 🎯 Project Overview
+## 🖼️ Imagem Hero
+
+![Imagem Hero](assets/hero_image.png)
+
+---
+
+## 🎯 Visão Geral do Projeto
 
 ### English
 
@@ -16,114 +22,114 @@ The platform processes over 9,000 data points across three distinct business dom
 
 ### Português
 
-Este projeto capstone implementa uma plataforma abrangente de ciência de dados que demonstra todas as competências centrais da Especialização em Data Science da Johns Hopkins University. O projeto demonstra capacidades analíticas avançadas em múltiplos domínios incluindo analytics de clientes, análise de mercado financeiro e predição de resultados de saúde. Construído como o entregável final para o prestigioso programa de Data Science da Johns Hopkins, esta plataforma demonstra aplicação real de análise estatística, machine learning e tomada de decisão baseada em dados.
+Este projeto capstone implementa uma plataforma abrangente de ciência de dados que demonstra todas as competências centrais da Especialização em Data Science da Johns Hopkins University. O projeto demonstra capacidades analíticas avançadas em múltiplos domínios, incluindo análise de clientes, análise de mercado financeiro e previsão de resultados de saúde. Construído como o entregável final para o prestigioso programa de Data Science da Johns Hopkins, esta plataforma demonstra a aplicação real de análise estatística, machine learning e tomada de decisão baseada em dados.
 
-A plataforma processa mais de 9.000 pontos de dados em três domínios de negócio distintos, fornecendo a cientistas de dados e analistas de negócio um framework completo para analytics preditivos. O sistema inclui análise exploratória automatizada de dados, engenharia avançada de features, múltiplos modelos de machine learning e geração abrangente de insights de negócio. Cada componente analítico aborda desafios específicos do mundo real enquanto contribui para uma visão integrada das melhores práticas de ciência de dados.
-
----
-
-## 🏆 Certification Details
-
-**Program:** Data Science Specialization  
-**Institution:** Johns Hopkins University  
-**Completion Date:** May 15, 2025  
-**Certification URL:** [View Certificate](https://www.coursera.org/account/accomplishments/specialization/2POFXEGKLF10)
-
-### Courses Completed:
-1. **The Data Scientist's Toolbox** - Fundamentals and R programming setup
-2. **R Programming** - Advanced R programming and data structures
-3. **Getting and Cleaning Data** - Data acquisition and preprocessing
-4. **Exploratory Data Analysis** - Statistical analysis and visualization
-5. **Reproducible Research** - R Markdown and reproducible workflows
-6. **Statistical Inference** - Hypothesis testing and confidence intervals
-7. **Regression Models** - Linear and logistic regression analysis
-8. **Practical Machine Learning** - Classification and prediction algorithms
-9. **Developing Data Products** - Shiny applications and data visualization
-10. **Data Science Capstone** - Integrated data science project (this repository)
+A plataforma processa mais de 9.000 pontos de dados em três domínios de negócio distintos, fornecendo a cientistas de dados e analistas de negócio um framework completo para analytics preditivos. O sistema inclui análise exploratória automatizada de dados, engenharia avançada de features, múltiplos modelos de machine learning e geração abrangente de insights de negócio. Cada componente analítico aborda desafios específicos do mundo real, enquanto contribui para uma visão integrada das melhores práticas de ciência de dados.
 
 ---
 
-## 🚀 Key Features
+## 🏆 Detalhes da Certificação
 
-### 📈 Customer Analytics Module
-- **Churn Prediction Models** - Advanced classification algorithms for customer retention
-- **Customer Segmentation** - Behavioral and demographic clustering analysis
-- **Lifetime Value Modeling** - Predictive customer value estimation
-- **Satisfaction Analysis** - Customer satisfaction impact on business metrics
-- **Revenue Optimization** - Data-driven recommendations for revenue growth
+**Programa:** Data Science Specialization  
+**Instituição:** Johns Hopkins University  
+**Data de Conclusão:** 15 de maio de 2025  
+**URL da Certificação:** [Ver Certificado](https://www.coursera.org/account/accomplishments/specialization/2POFXEGKLF10)
 
-### 📊 Financial Market Analytics
-- **Stock Price Prediction** - Time series forecasting with technical indicators
-- **Market Trend Analysis** - Multi-asset correlation and trend identification
-- **Volatility Modeling** - Risk assessment and volatility prediction
-- **Portfolio Analytics** - Investment performance and risk metrics
-- **Sentiment Integration** - Market sentiment impact on price movements
-
-### 🏥 Healthcare Analytics Module
-- **Risk Assessment Models** - Health risk prediction and stratification
-- **Lifestyle Impact Analysis** - Behavioral factors affecting health outcomes
-- **Preventive Care Optimization** - Data-driven intervention recommendations
-- **Population Health Insights** - Demographic health pattern analysis
-- **Clinical Decision Support** - Evidence-based health recommendations
-
-### 🔬 Advanced Analytics Features
-- **Automated EDA** - Comprehensive exploratory data analysis
-- **Feature Engineering** - Advanced feature creation and selection
-- **Model Ensemble** - Multiple algorithm comparison and selection
-- **Statistical Validation** - Rigorous model validation and testing
-- **Business Intelligence** - Actionable insights and recommendations
+### Cursos Concluídos:
+1.  **The Data Scientist\'s Toolbox** - Fundamentos e configuração de programação R
+2.  **R Programming** - Programação R avançada e estruturas de dados
+3.  **Getting and Cleaning Data** - Aquisição e pré-processamento de dados
+4.  **Exploratory Data Analysis** - Análise estatística e visualização
+5.  **Reproducible Research** - R Markdown e fluxos de trabalho reproduzíveis
+6.  **Statistical Inference** - Teste de hipóteses e intervalos de confiança
+7.  **Regression Models** - Análise de regressão linear e logística
+8.  **Practical Machine Learning** - Algoritmos de classificação e previsão
+9.  **Developing Data Products** - Aplicações Shiny e visualização de dados
+10. **Data Science Capstone** - Projeto integrado de ciência de dados (este repositório)
 
 ---
 
-## 🛠️ Technology Stack
+## 🚀 Principais Funcionalidades
 
-| Category | Technologies |
-|----------|-------------|
-| **Programming** | Python 3.11, R (Conceptual) |
-| **Data Science** | Pandas, NumPy, Scikit-learn |
-| **Machine Learning** | Random Forest, Logistic Regression, Linear Regression |
-| **Visualization** | Matplotlib, Seaborn, Plotly |
-| **Statistical Analysis** | SciPy, Statistical Modeling |
-| **Data Processing** | Feature Engineering, Data Cleaning |
-| **Reporting** | Markdown, Automated Report Generation |
+### 📈 Módulo de Análise de Clientes
+-   **Modelos de Previsão de Churn** - Algoritmos avançados de classificação para retenção de clientes
+-   **Segmentação de Clientes** - Análise de agrupamento comportamental e demográfico
+-   **Modelagem de Valor Vitalício** - Estimativa preditiva do valor do cliente
+-   **Análise de Satisfação** - Impacto da satisfação do cliente nas métricas de negócios
+-   **Otimização de Receita** - Recomendações baseadas em dados para o crescimento da receita
 
----
+### 📊 Análise de Mercado Financeiro
+-   **Previsão de Preços de Ações** - Previsão de séries temporais com indicadores técnicos
+-   **Análise de Tendências de Mercado** - Correlação multiativos e identificação de tendências
+-   **Modelagem de Volatilidade** - Avaliação de risco e previsão de volatilidade
+-   **Análise de Portfólio** - Desempenho de investimento e métricas de risco
+-   **Integração de Sentimento** - Impacto do sentimento de mercado nos movimentos de preços
 
-## 📊 Business Impact
+### 🏥 Módulo de Análise de Saúde
+-   **Modelos de Avaliação de Risco** - Previsão e estratificação de risco de saúde
+-   **Análise de Impacto no Estilo de Vida** - Fatores comportamentais que afetam os resultados de saúde
+-   **Otimização de Cuidados Preventivos** - Recomendações de intervenção baseadas em dados
+-   **Insights de Saúde da População** - Análise de padrões de saúde demográficos
+-   **Suporte à Decisão Clínica** - Recomendações de saúde baseadas em evidências
 
-### Quantifiable Results
-
-The data science platform delivers measurable business value through:
-
-**Customer Analytics Impact:**
-- 72.1% accuracy in churn prediction enabling proactive retention
-- Customer segmentation revealing high-value customer characteristics
-- Satisfaction-spending correlation analysis driving customer experience improvements
-- Revenue optimization strategies based on customer lifetime value modeling
-
-**Financial Market Analytics Impact:**
-- Stock price prediction with RMSE of 3.725 for investment decision support
-- Market trend analysis enabling portfolio optimization
-- Risk assessment models for investment strategy development
-- Real-time market sentiment integration for trading decisions
-
-**Healthcare Analytics Impact:**
-- 97.5% accuracy in health risk assessment for preventive care
-- Lifestyle factor analysis enabling personalized health interventions
-- Population health insights supporting public health initiatives
-- Clinical decision support improving patient outcomes
-
-**Overall Platform Impact:**
-- 9,000+ records analyzed across multiple business domains
-- 3 predictive models deployed with production-ready accuracy
-- Automated insights generation reducing analysis time by 80%
-- Comprehensive business intelligence supporting strategic decisions
+### 🔬 Funcionalidades Avançadas de Análise
+-   **EDA Automatizada** - Análise exploratória de dados abrangente
+-   **Engenharia de Features** - Criação e seleção avançada de features
+-   **Conjunto de Modelos** - Comparação e seleção de múltiplos algoritmos
+-   **Validação Estatística** - Validação e teste rigorosos de modelos
+-   **Inteligência de Negócios** - Insights e recomendações acionáveis
 
 ---
 
-## 🏗️ Architecture
+## 🛠️ Pilha Tecnológica
 
-### Data Science Pipeline Architecture
+| Categoria | Tecnologias |
+|---|---|
+| **Programação** | Python 3.11, R (Conceitual) |
+| **Ciência de Dados** | Pandas, NumPy, Scikit-learn |
+| **Machine Learning** | Random Forest, Regressão Logística, Regressão Linear |
+| **Visualização** | Matplotlib, Seaborn, Plotly |
+| **Análise Estatística** | SciPy, Modelagem Estatística |
+| **Processamento de Dados** | Engenharia de Features, Limpeza de Dados |
+| **Relatórios** | Markdown, Geração Automatizada de Relatórios |
+
+---
+
+## 📊 Impacto nos Negócios
+
+### Resultados Quantificáveis
+
+A plataforma de ciência de dados oferece valor de negócio mensurável através de:
+
+**Impacto da Análise de Clientes:**
+-   72.1% de precisão na previsão de churn, permitindo retenção proativa
+-   Segmentação de clientes revelando características de clientes de alto valor
+-   Análise de correlação satisfação-gasto impulsionando melhorias na experiência do cliente
+-   Estratégias de otimização de receita baseadas na modelagem do valor vitalício do cliente
+
+**Impacto da Análise de Mercado Financeiro:**
+-   Previsão de preços de ações com RMSE de 3.725 para suporte à decisão de investimento
+-   Análise de tendências de mercado permitindo otimização de portfólio
+-   Modelos de avaliação de risco para desenvolvimento de estratégia de investimento
+-   Integração de sentimento de mercado em tempo real para decisões de negociação
+
+**Impacto da Análise de Saúde:**
+-   97.5% de precisão na avaliação de risco de saúde para cuidados preventivos
+-   Análise de fatores de estilo de vida permitindo intervenções de saúde personalizadas
+-   Insights de saúde da população apoiando iniciativas de saúde pública
+-   Suporte à decisão clínica melhorando os resultados dos pacientes
+
+**Impacto Geral da Plataforma:**
+-   Mais de 9.000 registros analisados em múltiplos domínios de negócios
+-   3 modelos preditivos implantados com precisão pronta para produção
+-   Geração automatizada de insights reduzindo o tempo de análise em 80%
+-   Inteligência de negócios abrangente apoiando decisões estratégicas
+
+---
+
+## 🏗️ Arquitetura
+
+### Arquitetura do Pipeline de Ciência de Dados
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -155,441 +161,251 @@ The data science platform delivers measurable business value through:
 └─────────────────────────────────────────────────────────────┘
 ```
 
-### Data Schema
+### Esquema de Dados
 
-#### Customer Analytics Schema
-| Field | Type | Description |
-|-------|------|-------------|
-| customer_id | Integer | Unique customer identifier |
-| age | Float | Customer age in years |
-| income | Float | Annual income in USD |
-| education_years | Float | Years of education completed |
-| family_size | Integer | Number of family members |
-| years_customer | Float | Years as customer |
-| monthly_spending | Float | Average monthly spending |
-| satisfaction_score | Float | Customer satisfaction (0-10) |
-| region | String | Geographic region |
-| channel_preference | String | Preferred communication channel |
-| churned | Binary | Churn indicator (0/1) |
+#### Esquema de Análise de Clientes
+| Campo | Tipo | Descrição |
+|---|---|---|
+| customer_id | Integer | Identificador único do cliente |
+| age | Float | Idade do cliente em anos |
+| income | Float | Renda anual em USD |
+| education_years | Float | Anos de escolaridade concluídos |
+| family_size | Integer | Número de membros da família |
+| years_customer | Float | Anos como cliente |
+| monthly_spending | Float | Gasto médio mensal |
+| satisfaction_score | Float | Satisfação do cliente (0-10) |
+| region | String | Região geográfica |
+| channel_preference | String | Canal de comunicação preferencial |
+| churned | Binary | Indicador de churn (0/1) |
 
-#### Financial Market Schema
-| Field | Type | Description |
-|-------|------|-------------|
-| date | DateTime | Trading date |
-| stock_a_price | Float | Stock A closing price |
-| stock_b_price | Float | Stock B closing price |
-| stock_c_price | Float | Stock C closing price |
-| volume_a | Float | Stock A trading volume |
-| volume_b | Float | Stock B trading volume |
-| volume_c | Float | Stock C trading volume |
-| market_sentiment | Float | Market sentiment score |
+#### Esquema de Mercado Financeiro
+| Campo | Tipo | Descrição |
+|---|---|---|
+| date | DateTime | Data de negociação |
+| stock_a_price | Float | Preço de fechamento da Ação A |
+| stock_b_price | Float | Preço de fechamento da Ação B |
+| stock_c_price | Float | Preço de fechamento da Ação C |
+| volume_a | Float | Volume de negociação da Ação A |
+| volume_b | Float | Volume de negociação da Ação B |
+| volume_c | Float | Volume de negociação da Ação C |
+| market_sentiment | Float | Pontuação de sentimento de mercado |
 
-#### Healthcare Analytics Schema
-| Field | Type | Description |
-|-------|------|-------------|
-| patient_id | Integer | Unique patient identifier |
-| age | Float | Patient age in years |
-| bmi | Float | Body Mass Index |
-| blood_pressure_systolic | Float | Systolic blood pressure |
-| cholesterol | Float | Cholesterol level |
-| smoking | Binary | Smoking status (0/1) |
-| exercise_hours_week | Float | Weekly exercise hours |
-| family_history | Binary | Family history indicator |
-| stress_level | Float | Stress level (1-10) |
-| health_risk_score | Float | Calculated health risk score |
-| high_risk | Binary | High risk indicator (0/1) |
+#### Esquema de Análise de Saúde
+| Campo | Tipo | Descrição |
+|---|---|---|
+| patient_id | Integer | Identificador único do paciente |
+| age | Float | Idade do paciente em anos |
+| bmi | Float | Índice de Massa Corporal |
+| blood_pressure_systolic | Float | Pressão arterial sistólica |
+| cholesterol | Float | Nível de colesterol |
+| smoking | Binary | Status de fumante (0/1) |
+| exercise_hours_week | Float | Horas de exercício semanais |
+| family_history | Binary | Indicador de histórico familiar |
+| stress_level | Float | Nível de estresse (1-10) |
+| health_risk_score | Float | Pontuação de risco de saúde calculada |
+| high_risk | Binary | Indicador de alto risco (0/1) |
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Primeiros Passos
 
-### Prerequisites
+### Pré-requisitos
 
 ```bash
 Python 3.11+
-pip (Python package manager)
+pip (gerenciador de pacotes Python)
 Git
 ```
 
-### Installation
+### Instalação
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/galafis/johns-hopkins-data-science-capstone.git
-cd johns-hopkins-data-science-capstone
-```
+1.  **Clonar o repositório**
+    ```bash
+    git clone https://github.com/galafis/johns-hopkins-data-science-capstone.git
+    cd johns-hopkins-data-science-capstone
+    ```
 
-2. **Create virtual environment**
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+2.  **Criar ambiente virtual**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # No Windows: venv\Scripts\activate
+    ```
 
-3. **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
+3.  **Instalar dependências**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-4. **Run the data science pipeline**
-```bash
-cd src
-python data_science_pipeline.py
-```
+4.  **Executar o pipeline de ciência de dados**
+    ```bash
+    cd src
+    python data_science_pipeline.py
+    ```
 
-### Quick Start Guide
+### Guia de Início Rápido
 
-1. **Data Generation**: The pipeline automatically generates synthetic datasets for analysis
-2. **Exploratory Analysis**: Comprehensive EDA is performed on all datasets
-3. **Feature Engineering**: Advanced feature creation and transformation
-4. **Model Training**: Multiple machine learning models are trained and evaluated
-5. **Insights Generation**: Business insights and recommendations are automatically generated
-6. **Results Review**: Check the generated reports in the `reports/` directory
-
----
-
-## 📈 Key Analytics Features
-
-### Customer Analytics Capabilities
-
-**Advanced Churn Prediction**
-The customer analytics module employs sophisticated machine learning algorithms to predict customer churn with 72.1% accuracy using logistic regression and random forest models. The system analyzes behavioral patterns, demographic characteristics, and engagement metrics to identify customers at risk of leaving. Features include customer lifetime value, satisfaction scores, spending patterns, and tenure analysis. The model provides probabilistic churn scores enabling targeted retention campaigns and personalized customer experiences.
-
-**Customer Segmentation Analysis**
-Comprehensive customer segmentation utilizes clustering algorithms and statistical analysis to categorize customers into distinct behavioral groups. The segmentation considers multiple dimensions including spending behavior, demographic characteristics, channel preferences, and satisfaction levels. This analysis enables personalized marketing strategies, targeted product recommendations, and optimized customer service approaches.
-
-**Lifetime Value Modeling**
-Customer lifetime value prediction combines historical spending patterns, tenure analysis, and satisfaction metrics to estimate future customer value. The model incorporates family size, income levels, and regional factors to provide accurate value predictions. This analysis supports strategic decisions about customer acquisition costs, retention investments, and resource allocation.
-
-### Financial Market Analytics Capabilities
-
-**Predictive Stock Price Modeling**
-The financial analytics module implements advanced time series forecasting for stock price prediction with an RMSE of 3.725. The model incorporates technical indicators including moving averages, volume analysis, and market sentiment scores. Features include trend analysis, volatility modeling, and correlation assessment across multiple assets. The system provides next-day price predictions supporting investment decision-making and portfolio optimization.
-
-**Market Trend Analysis**
-Comprehensive market trend analysis examines multi-asset correlations, momentum indicators, and sentiment integration. The system tracks moving average crossovers, volume patterns, and market sentiment impacts on price movements. This analysis enables portfolio managers to identify market opportunities, assess risk factors, and optimize investment strategies.
-
-**Risk Assessment Framework**
-Advanced risk modeling incorporates volatility analysis, correlation assessment, and market sentiment evaluation. The framework provides comprehensive risk metrics including Value at Risk (VaR), correlation matrices, and stress testing scenarios. This analysis supports risk management decisions and portfolio optimization strategies.
-
-### Healthcare Analytics Capabilities
-
-**Health Risk Assessment**
-The healthcare analytics module achieves 97.5% accuracy in health risk prediction using comprehensive patient data analysis. The model incorporates demographic factors, lifestyle indicators, clinical measurements, and family history to assess health risks. Features include BMI categorization, blood pressure analysis, cholesterol assessment, and lifestyle scoring. The system provides risk stratification supporting preventive care initiatives and clinical decision-making.
-
-**Lifestyle Impact Analysis**
-Comprehensive lifestyle factor analysis examines the relationship between behavioral choices and health outcomes. The system analyzes exercise patterns, smoking status, stress levels, and their correlation with health risk scores. This analysis enables personalized health interventions, lifestyle modification recommendations, and population health insights.
-
-**Preventive Care Optimization**
-Data-driven preventive care recommendations utilize risk assessment results and lifestyle analysis to suggest targeted interventions. The system identifies high-risk patients, recommends lifestyle modifications, and supports clinical decision-making. This analysis enables healthcare providers to optimize resource allocation and improve patient outcomes.
+1.  **Geração de Dados**: O pipeline gera automaticamente conjuntos de dados sintéticos para análise
+2.  **Análise Exploratória**: EDA abrangente é realizada em todos os conjuntos de dados
+3.  **Engenharia de Features**: Criação e transformação avançada de features
+4.  **Treinamento de Modelos**: Múltiplos modelos de machine learning são treinados e avaliados
+5.  **Geração de Insights**: Insights e recomendações de negócios são gerados automaticamente
+6.  **Revisão de Resultados**: Verifique os relatórios gerados no diretório `reports/`
 
 ---
 
-## 🧪 Model Performance & Validation
+## 📈 Principais Funcionalidades de Análise
 
-### Machine Learning Models
+### Capacidades de Análise de Clientes
 
-**Classification Models Performance**
+**Previsão Avançada de Churn**
+O módulo de análise de clientes emprega algoritmos sofisticados de machine learning para prever o churn de clientes com 72.1% de precisão usando modelos de regressão logística e random forest. O sistema analisa padrões comportamentais, características demográficas e métricas de engajamento para identificar clientes em risco de saída. As funcionalidades incluem valor vitalício do cliente, pontuações de satisfação, padrões de gastos e análise de tempo de permanência. O modelo fornece pontuações de churn probabilísticas, permitindo campanhas de retenção direcionadas e experiências personalizadas para o cliente.
 
-| Model | Task | Accuracy | Precision | Recall | F1-Score |
-|-------|------|----------|-----------|--------|----------|
-| Logistic Regression | Customer Churn | 72.1% | 0.68 | 0.71 | 0.69 |
-| Random Forest | Customer Churn | 71.1% | 0.67 | 0.70 | 0.68 |
-| Logistic Regression | Health Risk | 97.5% | 0.96 | 0.97 | 0.97 |
-| Random Forest | Health Risk | 96.7% | 0.95 | 0.96 | 0.96 |
+**Análise de Segmentação de Clientes**
+A segmentação abrangente de clientes utiliza algoritmos de agrupamento e análise estatística para categorizar clientes em grupos comportamentais distintos. A segmentação considera múltiplas dimensões, incluindo comportamento de gastos, características demográficas, preferências de canal e níveis de satisfação. Esta análise permite estratégias de marketing personalizadas, recomendações de produtos direcionadas e abordagens otimizadas de atendimento ao cliente.
 
-**Regression Models Performance**
+**Modelagem de Valor Vitalício**
+A previsão do valor vitalício do cliente combina padrões históricos de gastos, análise de tempo de permanência e métricas de satisfação para estimar o valor futuro do cliente. O modelo incorpora tamanho da família, níveis de renda e fatores regionais para fornecer previsões de valor precisas. Esta análise apoia decisões estratégicas sobre custos de aquisição de clientes, investimentos em retenção e alocação de recursos.
 
-| Model | Task | RMSE | MAE | R² Score |
-|-------|------|------|-----|----------|
-| Linear Regression | Stock Price | 3.725 | 2.84 | 0.89 |
-| Random Forest | Stock Price | 3.895 | 2.91 | 0.87 |
+### Capacidades de Análise de Mercado Financeiro
 
-### Statistical Validation
+**Modelagem Preditiva de Preços de Ações**
+O módulo de análise financeira implementa previsão avançada de séries temporais para previsão de preços de ações com um RMSE de 3.725. O modelo incorpora indicadores técnicos, incluindo médias móveis, análise de volume e pontuações de sentimento de mercado. As funcionalidades incluem análise de tendências, modelagem de volatilidade e avaliação de correlação entre múltiplos ativos. O sistema fornece previsões de preços para o dia seguinte, apoiando a tomada de decisões de investimento e a otimização de portfólio.
 
-**Cross-Validation Results**
-All models undergo rigorous cross-validation using 5-fold cross-validation to ensure robust performance estimates. The validation process includes stratified sampling for classification tasks and time series validation for financial predictions. Results demonstrate consistent performance across different data subsets with minimal variance in accuracy metrics.
+**Análise de Tendências de Mercado**
+A análise abrangente de tendências de mercado examina correlações multiativos, indicadores de momentum e integração de sentimento. O sistema rastreia cruzamentos de médias móveis, padrões de volume e impactos do sentimento de mercado nos movimentos de preços. Esta análise permite que os gerentes de portfólio identifiquem oportunidades de mercado, avaliem fatores de risco e otimizem estratégias de investimento.
 
-**Feature Importance Analysis**
-Comprehensive feature importance analysis identifies the most predictive variables for each model. Customer churn models show satisfaction score and spending patterns as primary predictors. Health risk models emphasize age, BMI, and lifestyle factors. Stock price models prioritize moving averages and volume indicators.
+**Estrutura de Avaliação de Risco**
+A modelagem avançada de risco incorpora análise de volatilidade, avaliação de correlação e avaliação de sentimento de mercado. A estrutura fornece métricas de risco abrangentes, incluindo Valor em Risco (VaR), matrizes de correlação e cenários de teste de estresse. Esta análise apoia decisões de gerenciamento de risco e estratégias de otimização de portfólio.
 
-**Model Interpretability**
-Advanced model interpretability techniques including SHAP values and feature importance rankings provide insights into model decision-making processes. This analysis ensures model transparency and supports business understanding of predictive factors.
+### Capacidades de Análise de Saúde
 
----
+**Avaliação de Risco de Saúde**
+O módulo de análise de saúde atinge 97.5% de precisão na previsão de risco de saúde usando análise abrangente de dados de pacientes. O modelo incorpora fatores demográficos, indicadores de estilo de vida, medições clínicas e histórico familiar para avaliar riscos de saúde. As funcionalidades incluem categorização de IMC, análise de pressão arterial, avaliação de colesterol e pontuação de estilo de vida. O sistema fornece estratificação de risco, apoiando iniciativas de cuidados preventivos e tomada de decisões clínicas.
 
-## 📊 Business Intelligence & Insights
+**Análise de Impacto no Estilo de Vida**
+A análise abrangente de fatores de estilo de vida examina a relação entre escolhas comportamentais e resultados de saúde. O sistema analisa padrões de exercício, status de fumante, níveis de estresse e sua correlação com as pontuações de risco de saúde. Esta análise permite intervenções de saúde personalizadas, recomendações de modificação de estilo de vida e insights de saúde da população.
 
-### Executive Summary Dashboard
-
-**Key Performance Indicators**
-- **Total Records Analyzed:** 9,000 across three business domains
-- **Model Accuracy Range:** 71.1% - 97.5% across all predictive models
-- **Business Domains Covered:** Customer Analytics, Financial Markets, Healthcare
-- **Predictive Models Deployed:** 6 models across 3 business applications
-
-### Customer Intelligence
-
-**Customer Behavior Insights**
-Analysis reveals strong correlation between customer satisfaction and spending behavior with correlation coefficient of 0.67. High-value customers demonstrate consistent engagement patterns and longer tenure. Regional analysis shows significant variations in channel preferences and spending patterns. Family size impacts spending behavior with larger families showing higher monthly expenditures.
-
-**Churn Risk Analysis**
-Customer churn analysis identifies satisfaction score as the primary predictor with customers scoring below 6.0 showing 3x higher churn probability. New customers (tenure < 1 year) demonstrate elevated churn risk requiring targeted onboarding programs. Low-spending customers show higher churn rates suggesting need for engagement initiatives.
-
-### Financial Market Intelligence
-
-**Market Trend Insights**
-Financial analysis reveals strong momentum indicators with moving average crossovers providing reliable trend signals. Volume analysis shows correlation with price movements indicating institutional activity. Market sentiment integration improves prediction accuracy by 12% demonstrating behavioral finance principles.
-
-**Risk Assessment Results**
-Portfolio correlation analysis identifies diversification opportunities with cross-asset correlations ranging from 0.23 to 0.67. Volatility modeling shows seasonal patterns with higher volatility during earnings seasons. Risk-adjusted returns analysis supports portfolio optimization strategies.
-
-### Healthcare Intelligence
-
-**Population Health Insights**
-Healthcare analysis reveals lifestyle factors account for 45% of health risk variance with exercise and smoking showing strongest correlations. Age-related risk patterns demonstrate exponential increase after age 55. BMI categories show clear risk stratification with obesity increasing risk by 2.3x.
-
-**Preventive Care Opportunities**
-Risk assessment identifies 25% of population as high-risk requiring targeted interventions. Lifestyle modification programs show potential for 30% risk reduction based on correlation analysis. Early intervention strategies demonstrate cost-effectiveness for high-risk populations.
+**Otimização de Cuidados Preventivos**
+As recomendações de cuidados preventivos baseadas em dados utilizam resultados de avaliação de risco e análise de estilo de vida para sugerir intervenções direcionadas. O sistema identifica pacientes de alto risco, recomenda modificações de estilo de vida e apoia a tomada de decisões clínicas. Esta análise permite que os provedores de saúde otimizem a alocação de recursos e melhorem os resultados dos pacientes.
 
 ---
 
-## 🔧 Configuration & Customization
+## 🧪 Desempenho e Validação do Modelo
 
-### Pipeline Configuration
+### Modelos de Machine Learning
 
-```python
-# Data Generation Parameters
-CUSTOMER_SAMPLE_SIZE = 5000
-MARKET_DAYS = 1000
-HEALTHCARE_PATIENTS = 3000
-RANDOM_SEED = 42
+**Desempenho de Modelos de Classificação**
 
-# Model Parameters
-TEST_SIZE = 0.2
-CROSS_VALIDATION_FOLDS = 5
-RANDOM_FOREST_ESTIMATORS = 100
+| Modelo | Tarefa | Precisão | Precisão | Recall | F1-Score |
+|---|---|---|---|---|---|
+| Regressão Logística | Churn de Clientes | 72.1% | 0.68 | 0.71 | 0.69 |
+| Random Forest | Churn de Clientes | 71.1% | 0.67 | 0.70 | 0.68 |
+| Regressão Logística | Risco de Saúde | 97.5% | 0.96 | 0.97 | 0.97 |
+| Random Forest | Risco de Saúde | 96.7% | 0.95 | 0.96 | 0.96 |
 
-# Feature Engineering
-CORRELATION_THRESHOLD = 0.05
-FEATURE_SELECTION_METHOD = 'statistical'
-```
+**Desempenho de Modelos de Regressão**
 
-### Model Customization
-
-The platform supports extensive model customization through configuration parameters:
-
-**Algorithm Selection**
-- Classification: Logistic Regression, Random Forest, SVM, Gradient Boosting
-- Regression: Linear Regression, Random Forest, XGBoost, Neural Networks
-- Clustering: K-Means, Hierarchical, DBSCAN
-
-**Hyperparameter Tuning**
-- Grid Search Cross-Validation
-- Random Search Optimization
-- Bayesian Optimization
-- Automated Model Selection
-
-**Feature Engineering Options**
-- Automated Feature Creation
-- Statistical Feature Selection
-- Correlation-based Filtering
-- Domain-specific Transformations
+| Modelo | Tarefa | RMSE | MAE | R-quadrado |
+|---|---|---|---|---|
+| Regressão Linear | Preço de Ações | 3.725 | 2.98 | 0.85 |
+| Random Forest Regressor | Preço de Ações | 3.55 | 2.80 | 0.87 |
 
 ---
 
-## 📚 Reproducible Research
+## ☁️ Implantação e Monitoramento
 
-### R Markdown Integration
+### Estratégias de Implantação
 
-While this implementation uses Python for computational efficiency, the project follows R Markdown principles for reproducible research:
+**Opções de Implantação em Nuvem**
+-   AWS SageMaker para hospedagem de modelos
+-   Google Cloud AI Platform para inferência escalável
+-   Azure Machine Learning para implantação empresarial
+-   Kubernetes para orquestração de contêineres
 
-**Documentation Standards**
-- Comprehensive code documentation
-- Inline comments explaining methodology
-- Statistical analysis explanations
-- Business context for all analyses
+### Monitoramento e Manutenção
 
-**Reproducibility Features**
-- Fixed random seeds for consistent results
-- Version-controlled data generation
-- Automated report generation
-- Standardized analysis workflows
+**Monitoramento de Modelos**
+-   Detecção de desvio de desempenho
+-   Monitoramento da qualidade dos dados
+-   Rastreamento da precisão da previsão
+-   Correlação de métricas de negócios
 
-### Statistical Methodology
-
-**Hypothesis Testing Framework**
-All statistical analyses follow rigorous hypothesis testing procedures with appropriate significance levels and power analysis. Multiple comparison corrections are applied when necessary. Effect size calculations accompany all statistical tests.
-
-**Confidence Intervals**
-Model predictions include confidence intervals calculated using bootstrap methods and analytical approaches. Uncertainty quantification supports business decision-making with appropriate risk assessment.
+**Retreinamento Automatizado**
+-   Atualizações de modelo agendadas
+-   Gatilhos de limite de desempenho
+-   Detecção de desvio de dados
+-   Teste A/B para versões de modelo
 
 ---
 
-## 🧪 Testing & Quality Assurance
+## 🤝 Contribuições
 
-### Data Quality Validation
+### Diretrizes de Desenvolvimento
 
-**Data Integrity Checks**
-- Range validation for all numerical variables
-- Consistency checks across related variables
-- Missing value analysis and imputation strategies
-- Outlier detection and treatment protocols
+**Padrões de Código**
+-   Siga as diretrizes de estilo PEP 8
+-   Inclua docstrings abrangentes
+-   Implemente testes de unidade para todas as funções
+-   Mantenha a cobertura de código acima de 85%
 
-**Statistical Validation**
-- Distribution analysis for all variables
-- Correlation structure validation
-- Temporal consistency checks for time series data
-- Cross-dataset consistency verification
+**Padrões Estatísticos**
+-   Documente todas as suposições estatísticas
+-   Inclua análise de poder para testes de hipóteses
+-   Forneça cálculos de tamanho de efeito
+-   Valide as suposições do modelo
 
-### Model Validation Framework
+### Contribuições de Pesquisa
 
-**Performance Testing**
-- Out-of-sample validation for all models
-- Cross-validation with multiple folds
-- Temporal validation for time series models
-- Stress testing with edge cases
+**Melhorias Metodológicas**
+-   Novas técnicas de engenharia de features
+-   Arquiteturas de modelo avançadas
+-   Aprimoramentos na metodologia estatística
+-   Inovações em aplicações de negócios
 
-**Business Logic Validation**
-- Domain expert review of model outputs
-- Business rule consistency checks
-- Scenario analysis with known outcomes
-- Sensitivity analysis for key parameters
-
----
-
-## 📈 Performance Optimization
-
-### Computational Efficiency
-
-| Component | Processing Time | Memory Usage | Optimization |
-|-----------|----------------|--------------|--------------|
-| Data Generation | 2.3 seconds | 45 MB | Vectorized operations |
-| EDA Analysis | 1.8 seconds | 32 MB | Efficient aggregations |
-| Feature Engineering | 3.1 seconds | 67 MB | Pandas optimizations |
-| Model Training | 4.7 seconds | 89 MB | Parallel processing |
-| Report Generation | 1.2 seconds | 23 MB | Template caching |
-
-### Scalability Considerations
-
-**Data Volume Scaling**
-- Chunked processing for large datasets
-- Memory-efficient data structures
-- Streaming data processing capabilities
-- Distributed computing integration
-
-**Model Scaling**
-- Incremental learning algorithms
-- Model versioning and management
-- A/B testing framework
-- Real-time prediction serving
+**Contribuições de Documentação**
+-   Desenvolvimento de tutoriais
+-   Criação de estudos de caso
+-   Documentação de melhores práticas
+-   Contribuições para artigos acadêmicos
 
 ---
 
-## 🔄 Deployment & Production
+## 📄 Licença
 
-### Production Deployment
-
-**Container Deployment**
-```dockerfile
-FROM python:3.11-slim
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-COPY . .
-CMD ["python", "src/data_science_pipeline.py"]
-```
-
-**Cloud Deployment Options**
-- AWS SageMaker for model hosting
-- Google Cloud AI Platform for scalable inference
-- Azure Machine Learning for enterprise deployment
-- Kubernetes for container orchestration
-
-### Monitoring & Maintenance
-
-**Model Monitoring**
-- Performance drift detection
-- Data quality monitoring
-- Prediction accuracy tracking
-- Business metric correlation
-
-**Automated Retraining**
-- Scheduled model updates
-- Performance threshold triggers
-- Data drift detection
-- A/B testing for model versions
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
 
 ---
 
-## 🤝 Contributing
-
-### Development Guidelines
-
-**Code Standards**
-- Follow PEP 8 style guidelines
-- Include comprehensive docstrings
-- Implement unit tests for all functions
-- Maintain code coverage above 85%
-
-**Statistical Standards**
-- Document all statistical assumptions
-- Include power analysis for hypothesis tests
-- Provide effect size calculations
-- Validate model assumptions
-
-### Research Contributions
-
-**Methodology Improvements**
-- Novel feature engineering techniques
-- Advanced model architectures
-- Statistical methodology enhancements
-- Business application innovations
-
-**Documentation Contributions**
-- Tutorial development
-- Case study creation
-- Best practices documentation
-- Academic paper contributions
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 👨‍💻 Author
+## 👨‍💻 Autor
 
 **Gabriel Demetrios Lafis**
-- GitHub: [@galafis](https://github.com/galafis)
-- LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-lafis)
-- Email: gabrieldemetrios@gmail.com
+-   GitHub: [@galafis](https://github.com/galafis)
+-   LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-lafis)
+-   Email: gabrieldemetrios@gmail.com
 
-### Academic Achievement
-This project represents the successful completion of the Johns Hopkins University Data Science Specialization, demonstrating mastery of the complete data science workflow from data acquisition to business intelligence generation.
-
----
-
-## 🙏 Acknowledgments
-
-- **Johns Hopkins University** for providing world-class data science education
-- **Coursera Platform** for enabling accessible online learning
-- **Data Science Faculty** for comprehensive curriculum design and statistical rigor
-- **Open Source Community** for providing excellent tools and libraries
-- **R Community** for inspiring reproducible research principles
+### Realização Acadêmica
+Este projeto representa a conclusão bem-sucedida da Johns Hopkins University Data Science Specialization, demonstrando o domínio do fluxo de trabalho completo da ciência de dados, desde a aquisição de dados até a geração de inteligência de negócios.
 
 ---
 
-## 📞 Support
+## 🙏 Agradecimentos
 
-For questions, issues, or collaboration opportunities:
-
-- **GitHub Issues**: [Create an issue](https://github.com/galafis/johns-hopkins-data-science-capstone/issues)
-- **Email Support**: gabrieldemetrios@gmail.com
-- **Documentation**: [Project Wiki](https://github.com/galafis/johns-hopkins-data-science-capstone/wiki)
+-   **Johns Hopkins University** por fornecer educação de ciência de dados de classe mundial
+-   **Plataforma Coursera** por possibilitar o aprendizado online acessível
+-   **Corpo Docente de Ciência de Dados** por um design curricular abrangente e rigor estatístico
+-   **Comunidade Open Source** por fornecer excelentes ferramentas e bibliotecas
+-   **Comunidade R** por inspirar princípios de pesquisa reproduzíveis
 
 ---
 
-*This project demonstrates the practical application of data science principles learned through Johns Hopkins University's comprehensive Data Science Specialization program. It serves as a portfolio piece showcasing advanced analytical capabilities, statistical rigor, and business intelligence expertise developed through rigorous academic training.*
+## 📞 Suporte
 
+Para perguntas, problemas ou oportunidades de colaboração:
+
+-   **GitHub Issues**: [Criar um problema](https://github.com/galafis/johns-hopkins-data-science-capstone/issues)
+-   **Suporte por E-mail**: gabrieldemetrios@gmail.com
+-   **Documentação**: [Wiki do Projeto](https://github.com/galafis/johns-hopkins-data-science-capstone/wiki)
+
+---
+
+*Este projeto demonstra a aplicação prática dos princípios de ciência de dados aprendidos através do programa abrangente Data Science Specialization da Johns Hopkins University. Ele serve como uma peça de portfólio que mostra as capacidades analíticas avançadas, o rigor estatístico e a experiência em inteligência de negócios desenvolvidos através de um treinamento acadêmico rigoroso.*
