@@ -131,34 +131,36 @@ A plataforma de ciência de dados oferece valor de negócio mensurável através
 
 ### Arquitetura do Pipeline de Ciência de Dados
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                Johns Hopkins Data Science Platform          │
-├─────────────────────────────────────────────────────────────┤
-│  Business Intelligence Layer                               │
-│  ┌─────────────┬─────────────┬─────────────┬─────────────┐  │
-│  │ Executive   │ Predictive  │ Statistical │ Automated   │  │
-│  │ Dashboards  │ Insights    │ Reports     │ Alerts      │  │
-│  └─────────────┴─────────────┴─────────────┴─────────────┘  │
-├─────────────────────────────────────────────────────────────┤
-│  Machine Learning Layer                                    │
-│  ┌─────────────┬─────────────┬─────────────┬─────────────┐  │
-│  │ Classification│ Regression │ Clustering  │ Ensemble    │  │
-│  │ Models      │ Models      │ Analysis    │ Methods     │  │
-│  └─────────────┴─────────────┴─────────────┴─────────────┘  │
-├─────────────────────────────────────────────────────────────┤
-│  Feature Engineering Layer                                 │
-│  ┌─────────────┬─────────────┬─────────────┬─────────────┐  │
-│  │ Data        │ Feature     │ Statistical │ Validation  │  │
-│  │ Cleaning    │ Creation    │ Analysis    │ & Testing   │  │
-│  └─────────────┴─────────────┴─────────────┴─────────────┘  │
-├─────────────────────────────────────────────────────────────┤
-│  Data Processing Layer                                     │
-│  ┌─────────────┬─────────────┬─────────────┬─────────────┐  │
-│  │ Customer    │ Financial   │ Healthcare  │ Synthetic   │  │
-│  │ Data        │ Market Data │ Data        │ Data Gen.   │  │
-│  └─────────────┴─────────────┴─────────────┴─────────────┘  │
-└─────────────────────────────────────────────────────────────┘
+```mermaid
+graph TD
+    A[Data Sources] --> B{Data Processing Layer}
+    B --> C{Feature Engineering Layer}
+    C --> D{Machine Learning Layer}
+    D --> E{Business Intelligence Layer}
+
+    subgraph Data Processing Layer
+        B1[Customer Data] --> B2[Financial Market Data]
+        B2 --> B3[Healthcare Data]
+        B3 --> B4[Synthetic Data Generation]
+    end
+
+    subgraph Feature Engineering Layer
+        C1[Data Cleaning] --> C2[Feature Creation]
+        C2 --> C3[Statistical Analysis]
+        C3 --> C4[Validation & Testing]
+    end
+
+    subgraph Machine Learning Layer
+        D1[Classification Models] --> D2[Regression Models]
+        D2 --> D3[Clustering Analysis]
+        D3 --> D4[Ensemble Methods]
+    end
+
+    subgraph Business Intelligence Layer
+        E1[Executive Dashboards] --> E2[Predictive Insights]
+        E2 --> E3[Statistical Reports]
+        E3 --> E4[Automated Alerts]
+    end
 ```
 
 ### Esquema de Dados
@@ -221,8 +223,8 @@ Git
 
 1.  **Clonar o repositório**
     ```bash
-    git clone https://github.com/galafis/johns-hopkins-data-science-capstone.git
-    cd johns-hopkins-data-science-capstone
+    git clone https://github.com/galafis/Predictive-Analytics-Platform.git
+    cd Predictive-Analytics-Platform
     ```
 
 2.  **Criar ambiente virtual**
@@ -283,90 +285,16 @@ A modelagem avançada de risco incorpora análise de volatilidade, avaliação d
 O módulo de análise de saúde atinge 97.5% de precisão na previsão de risco de saúde usando análise abrangente de dados de pacientes. O modelo incorpora fatores demográficos, indicadores de estilo de vida, medições clínicas e histórico familiar para avaliar riscos de saúde. As funcionalidades incluem categorização de IMC, análise de pressão arterial, avaliação de colesterol e pontuação de estilo de vida. O sistema fornece estratificação de risco, apoiando iniciativas de cuidados preventivos e tomada de decisões clínicas.
 
 **Análise de Impacto no Estilo de Vida**
-A análise abrangente de fatores de estilo de vida examina a relação entre escolhas comportamentais e resultados de saúde. O sistema analisa padrões de exercício, status de fumante, níveis de estresse e sua correlação com as pontuações de risco de saúde. Esta análise permite intervenções de saúde personalizadas, recomendações de modificação de estilo de vida e insights de saúde da população.
+A análise de impacto no estilo de vida examina a correlação entre fatores comportamentais (por exemplo, dieta, exercício, hábitos de sono) e resultados de saúde. O modelo utiliza técnicas de aprendizado de máquina para identificar os principais contribuintes para o risco de saúde e fornece recomendações personalizadas para intervenções no estilo de vida. Esta análise apoia programas de bem-estar e iniciativas de saúde preventiva.
 
 **Otimização de Cuidados Preventivos**
-As recomendações de cuidados preventivos baseadas em dados utilizam resultados de avaliação de risco e análise de estilo de vida para sugerir intervenções direcionadas. O sistema identifica pacientes de alto risco, recomenda modificações de estilo de vida e apoia a tomada de decisões clínicas. Esta análise permite que os provedores de saúde otimizem a alocação de recursos e melhorem os resultados dos pacientes.
+A otimização de cuidados preventivos utiliza modelos preditivos para identificar indivíduos de alto risco e recomendar intervenções direcionadas. O sistema integra dados de saúde do paciente, diretrizes clínicas e evidências de eficácia do tratamento para fornecer recomendações personalizadas. Esta análise apoia a alocação de recursos de saúde e a melhoria dos resultados dos pacientes.
 
 ---
 
-## 🧪 Desempenho e Validação do Modelo
+## 🤝 Contribuição
 
-### Modelos de Machine Learning
-
-**Desempenho de Modelos de Classificação**
-
-| Modelo | Tarefa | Precisão | Precisão | Recall | F1-Score |
-|---|---|---|---|---|---|
-| Regressão Logística | Churn de Clientes | 72.1% | 0.68 | 0.71 | 0.69 |
-| Random Forest | Churn de Clientes | 71.1% | 0.67 | 0.70 | 0.68 |
-| Regressão Logística | Risco de Saúde | 97.5% | 0.96 | 0.97 | 0.97 |
-| Random Forest | Risco de Saúde | 96.7% | 0.95 | 0.96 | 0.96 |
-
-**Desempenho de Modelos de Regressão**
-
-| Modelo | Tarefa | RMSE | MAE | R-quadrado |
-|---|---|---|---|---|
-| Regressão Linear | Preço de Ações | 3.725 | 2.98 | 0.85 |
-| Random Forest Regressor | Preço de Ações | 3.55 | 2.80 | 0.87 |
-
----
-
-## ☁️ Implantação e Monitoramento
-
-### Estratégias de Implantação
-
-**Opções de Implantação em Nuvem**
--   AWS SageMaker para hospedagem de modelos
--   Google Cloud AI Platform para inferência escalável
--   Azure Machine Learning para implantação empresarial
--   Kubernetes para orquestração de contêineres
-
-### Monitoramento e Manutenção
-
-**Monitoramento de Modelos**
--   Detecção de desvio de desempenho
--   Monitoramento da qualidade dos dados
--   Rastreamento da precisão da previsão
--   Correlação de métricas de negócios
-
-**Retreinamento Automatizado**
--   Atualizações de modelo agendadas
--   Gatilhos de limite de desempenho
--   Detecção de desvio de dados
--   Teste A/B para versões de modelo
-
----
-
-## 🤝 Contribuições
-
-### Diretrizes de Desenvolvimento
-
-**Padrões de Código**
--   Siga as diretrizes de estilo PEP 8
--   Inclua docstrings abrangentes
--   Implemente testes de unidade para todas as funções
--   Mantenha a cobertura de código acima de 85%
-
-**Padrões Estatísticos**
--   Documente todas as suposições estatísticas
--   Inclua análise de poder para testes de hipóteses
--   Forneça cálculos de tamanho de efeito
--   Valide as suposições do modelo
-
-### Contribuições de Pesquisa
-
-**Melhorias Metodológicas**
--   Novas técnicas de engenharia de features
--   Arquiteturas de modelo avançadas
--   Aprimoramentos na metodologia estatística
--   Inovações em aplicações de negócios
-
-**Contribuições de Documentação**
--   Desenvolvimento de tutoriais
--   Criação de estudos de caso
--   Documentação de melhores práticas
--   Contribuições para artigos acadêmicos
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests para melhorias e correções.
 
 ---
 
@@ -376,36 +304,39 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ---
 
-## 👨‍💻 Autor
+## 👤 Autor
 
 **Gabriel Demetrios Lafis**
--   GitHub: [@galafis](https://github.com/galafis)
--   LinkedIn: [Gabriel Demetrios Lafis](https://linkedin.com/in/gabriel-lafis)
--   Email: gabrieldemetrios@gmail.com
-
-### Realização Acadêmica
-Este projeto representa a conclusão bem-sucedida da Johns Hopkins University Data Science Specialization, demonstrando o domínio do fluxo de trabalho completo da ciência de dados, desde a aquisição de dados até a geração de inteligência de negócios.
 
 ---
 
-## 🙏 Agradecimentos
+## ✨ Agradecimentos
 
--   **Johns Hopkins University** por fornecer educação de ciência de dados de classe mundial
--   **Plataforma Coursera** por possibilitar o aprendizado online acessível
--   **Corpo Docente de Ciência de Dados** por um design curricular abrangente e rigor estatístico
--   **Comunidade Open Source** por fornecer excelentes ferramentas e bibliotecas
--   **Comunidade R** por inspirar princípios de pesquisa reproduzíveis
+*   Johns Hopkins University por fornecer o currículo e a estrutura para este projeto capstone.
+*   Comunidade de código aberto por suas ferramentas e bibliotecas inestimáveis.
 
 ---
 
-## 📞 Suporte
+## 🔗 Links Úteis
 
-Para perguntas, problemas ou oportunidades de colaboração:
-
--   **GitHub Issues**: [Criar um problema](https://github.com/galafis/johns-hopkins-data-science-capstone/issues)
--   **Suporte por E-mail**: gabrieldemetrios@gmail.com
--   **Documentação**: [Wiki do Projeto](https://github.com/galafis/johns-hopkins-data-science-capstone/wiki)
+*   [GitHub Profile](https://github.com/galafis)
+*   [LinkedIn Profile](https://www.linkedin.com/in/gabriel-demetrios-lafis)
+*   [Coursera Specialization](https://www.coursera.org/specializations/data-science-johns-hopkins)
 
 ---
 
-*Este projeto demonstra a aplicação prática dos princípios de ciência de dados aprendidos através do programa abrangente Data Science Specialization da Johns Hopkins University. Ele serve como uma peça de portfólio que mostra as capacidades analíticas avançadas, o rigor estatístico e a experiência em inteligência de negócios desenvolvidos através de um treinamento acadêmico rigoroso.*
+## 🚀 Badges
+
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-orange?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-blue?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-orange?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-blue?style=for-the-badge&logo=matplotlib&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-blueviolet?style=for-the-badge&logo=seaborn&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-black?style=for-the-badge&logo=plotly&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-red?style=for-the-badge&logo=streamlit&logoColor=white)
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
+![GitHub Stars](https://img.shields.io/github/stars/galafis/Predictive-Analytics-Platform?style=for-the-badge&color=yellow)
+![GitHub Forks](https://img.shields.io/github/forks/galafis/Predictive-Analytics-Platform?style=for-the-badge&color=blue)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/galafis/Predictive-Analytics-Platform?style=for-the-badge&color=lightgrey)
+

@@ -166,7 +166,7 @@ class DataSciencePipeline:
             bp_systolic = np.random.randint(90, 180)
             bp_diastolic = np.random.randint(60, 120)
             cholesterol = np.random.normal(200, 40)
-            smoking = np.random.choice([0, 1], p=[0.7, 0.3])
+            smoking = int(np.random.choice([0, 1], p=[0.7, 0.3]))
             exercise_hours = np.random.uniform(0, 10)
             
             # Calculate risk level based on factors
