@@ -325,18 +325,5 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ---
 
-## 🚀 Badges
 
-![Python](https://img.shields.io/badge/Python-3.11%2B-blue?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-orange?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-blue?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-orange?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-blue?style=for-the-badge&logo=matplotlib&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-blueviolet?style=for-the-badge&logo=seaborn&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-black?style=for-the-badge&logo=plotly&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-red?style=for-the-badge&logo=streamlit&logoColor=white)
-![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
-![GitHub Stars](https://img.shields.io/github/stars/galafis/Predictive-Analytics-Platform?style=for-the-badge&color=yellow)
-![GitHub Forks](https://img.shields.io/github/forks/galafis/Predictive-Analytics-Platform?style=for-the-badge&color=blue)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/galafis/Predictive-Analytics-Platform?style=for-the-badge&color=lightgrey)
 
